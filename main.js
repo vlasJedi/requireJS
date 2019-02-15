@@ -57,6 +57,7 @@ requirejs(["modules/scripts/alertHello", "jquery"],function( alertHello, $ ){
 			}
 			console.log("Server status code xhr.status: " + xhr.status + ", server status text: " + xhr.statusText );
 			console.log("Response from server xhr.responseText: " + xhr.responseText);
+			
 		};
 		
 		
